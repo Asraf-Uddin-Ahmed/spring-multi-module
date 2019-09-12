@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.asraf.boot_service.MyBootService;
 
-@SpringBootApplication(scanBasePackageClasses = { MyBootService.class })
+@SpringBootApplication(scanBasePackageClasses = { MyBootService.class, BaseController.class })
 public class BootApiApplication {
 
 	public static void main(String[] args) {
