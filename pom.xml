@@ -56,4 +56,8 @@
 		</plugins>
 	</build>
 
+	<modules>
+		<module>boot-service</module>
+	</modules>
+
 </project>
