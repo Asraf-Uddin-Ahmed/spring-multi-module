@@ -17,5 +17,13 @@ To run jar file by specific profile (here is *prod*, which is fetching data from
 ```
 java -jar target/spring-boot-hibernate-datajpa.jar --spring.profiles.active=prod
 ```
+To run spring boot-api:
+```
+mvn spring-boot:run -pl boot-api
+```
+To run spring boot-api by 'dev' profile:
+```
+mvn spring-boot:run -pl boot-api -Dspring-boot.run.profiles=dev
+```
 # References
 1. [Spring boot multiple modules](https://www.baeldung.com/spring-boot-multiple-modules)
