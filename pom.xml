@@ -58,6 +58,6 @@
 
 	<modules>
 		<module>boot-service</module>
+		<module>boot-api</module>
 	</modules>
-
 </project>
